@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from '@edx/react-unit-test-utils';
 
-import { Image } from '@edx/paragon';
+import { Image } from '@openedx/paragon';
 import { GalleryCard } from './GalleryCard';
 
 jest.mock('@edx/paragon', () => ({
