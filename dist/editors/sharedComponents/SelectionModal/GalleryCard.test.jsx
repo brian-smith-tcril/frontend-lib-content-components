@@ -4,8 +4,8 @@ import { shallow } from '@edx/react-unit-test-utils';
 import { Image } from '@openedx/paragon';
 import { GalleryCard } from './GalleryCard';
 
-jest.mock('@edx/paragon', () => ({
-  ...jest.requireActual('@edx/paragon'),
+jest.mock('@openedx/paragon', () => ({
+  ...jest.requireActual('@openedx/paragon'),
   Badge: 'Badge',
   SelectableBox: 'SelectableBox',
   Image: 'Image',
