@@ -22,6 +22,7 @@ export const ScoringCard = ({
   learningContextId,
   isLibrary,
 }) => {
+  debugger;
   const isGradingMethodEnabled = getConfig().ENABLE_GRADING_METHOD_IN_PROBLEMS;
   const {
     handleUnlimitedChange,

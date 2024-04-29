@@ -35,6 +35,7 @@ const ScoringCard = _ref => {
     learningContextId,
     isLibrary
   } = _ref;
+  debugger;
   const isGradingMethodEnabled = (0, _frontendPlatform.getConfig)().ENABLE_GRADING_METHOD_IN_PROBLEMS;
   const {
     handleUnlimitedChange,
